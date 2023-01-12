@@ -1,9 +1,10 @@
 @extends('layout.main')
 
-@section('title', 'HDC Events')
+@section('title', 'Criar Evento')
 
 @section('content')
 <h1>Hello World</h1>
 
-<img src="/img/banner.jpg" alt="">
+<h1>Crie um Evento</h1>
+
 @endsection   
