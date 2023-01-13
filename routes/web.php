@@ -20,9 +20,3 @@ Route::get('/', [EventController::class, 'index']);
 Route::get('/events/create', [EventController::class, 'create']); 
 
 Route::get('/contact', [EventController::class, 'contato']);
-
-Route::get('/products', [EventController::class, 'produtos']);
-
-Route::get('/produtos_teste/{id?}', function($id = null) {
-    return view('product',['id' => $id]);
-});
